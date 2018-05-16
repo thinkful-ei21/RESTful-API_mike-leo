@@ -12,7 +12,7 @@ const api = (function(){
     $.ajax({
       url: `${BASE_URL}/items`,
       method: 'POST',
-      contentType: 'application/jason',
+      contentType: 'application/json',
       data: newItem,
       success: callback
     });
